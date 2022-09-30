@@ -1,8 +1,0 @@
-import random
-temperature=random.sample(range(30,50),1)
-print("The Temperature is: ",temperature)
-if(temperature>=[35]):
-    print("High Temperature")
-    print("Alarm ON")
-else:
-    print("Temperature is Normal")
